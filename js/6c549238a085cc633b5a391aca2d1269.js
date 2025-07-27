@@ -3,17 +3,17 @@
     while (document.getElementById("timer" + _id)) _id = _id + "0";
     document.write("<div id='timer" + _id + "' style='min-width:242px;height:56px;'></div>");
     var _t = document.createElement("script");
-    _t.src = "//megatimer.ru/timer/timer.min.js?v=1";
+    _t.src = "https://megatimer.ru/timer/timer.min.js?v=1";
     var _f = function (_k) {
         var l = new MegaTimer(_id, {
             "view": [1, 1, 1, 1],
-            "type": {"currentType": "1", "params": {"usertime": true, "tz": "3", "utc": 1755961200000}},
+            "type": {"currentType": "1", "params": {"usertime": false, "tz": "3", "utc": 1755961200000}},
             "design": {
                 "type": "text",
                 "params": {
                     "number-font-family": {
                         "family": "Poiret One",
-                        "link": "<link href='//fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>"
+                        "link": "<link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>"
                     },
                     "number-font-size": "43",
                     "number-font-color": "#000",
@@ -23,7 +23,7 @@
                     "text-on": true,
                     "text-font-family": {
                         "family": "Poiret One",
-                        "link": "<link href='//fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>"
+                        "link": "<link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>"
                     },
                     "text-font-size": "12",
                     "text-font-color": "#434343"
