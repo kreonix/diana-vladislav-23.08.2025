@@ -7,7 +7,7 @@
     var _f = function (_k) {
         var l = new MegaTimer(_id, {
             "view": [1, 1, 1, 1],
-            "type": {"currentType": "1", "params": {"usertime": true, "tz": "3", "utc": 1753628400000}},
+            "type": {"currentType": "1", "params": {"usertime": false, "tz": "3", "utc": 1755968400000}},
             "design": {
                 "type": "text",
                 "params": {
